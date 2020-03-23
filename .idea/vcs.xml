@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2019-mobile02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2020-mobile-02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Aplikasiku/2019-mobile02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Myadvanture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/UTSAndroid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cashflow-safata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/intent-exercise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/intent-score" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/intent-score-challenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mobile-intent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recyclerview-safata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/retrofit-safata" vcs="Git" />
+  </component>
+</project>
