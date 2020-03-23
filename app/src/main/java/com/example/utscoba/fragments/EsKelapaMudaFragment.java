@@ -1,4 +1,4 @@
 package com.example.utscoba.fragments;
 
-public class EsCampurFragment {
+public class EsKelapaMudaFragment {
 }
