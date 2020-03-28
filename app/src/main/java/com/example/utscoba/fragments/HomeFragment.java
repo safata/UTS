@@ -59,7 +59,14 @@ public class HomeFragment extends Fragment {
         }
     }
 
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mListener = null;
+    }
+
     public interface OnFragmentInteractionListener {
+        // TODO: Update argument type and name
         void onMeatClicked();
     }
 }

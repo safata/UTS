@@ -1,11 +1,15 @@
 package com.example.utscoba.activities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import com.example.utscoba.R;
 import com.example.utscoba.fragments.HomeFragment;
+import com.example.utscoba.fragments.MinumFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,9 +17,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loadFragment (new HomeFragment());
+        loadFragment(new HomeFragment());
+
     }
 
-    private void loadFragment(HomeFragment homeFragment) {
+    private boolean loadFragment(Fragment fragment) {
+        if (fragment != null) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container, fragment)
+                    .addToBackStack(null)
+                    .commit();
+            return true;
+        }
+        return false;
     }
+
+
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }
+
+
 }
