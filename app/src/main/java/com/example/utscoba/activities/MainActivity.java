@@ -1,15 +1,12 @@
 package com.example.utscoba.activities;
 
-import androidx.annotation.NonNull;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import android.os.Bundle;
-import android.view.MenuItem;
-
 import com.example.utscoba.R;
 import com.example.utscoba.fragments.HomeFragment;
-import com.example.utscoba.fragments.MinumFragment;
 
 public class MainActivity extends AppCompatActivity {
 
