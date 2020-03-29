@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import com.example.utscoba.R;
 import com.example.utscoba.fragments.HomeFragment;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -29,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-
-
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
     }
+
+
 
 
 }
