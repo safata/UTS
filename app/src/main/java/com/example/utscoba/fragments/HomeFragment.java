@@ -3,15 +3,22 @@ package com.example.utscoba.fragments;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import androidx.fragment.app.Fragment;
-
 import com.example.utscoba.R;
 
+/**
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link HomeFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ */
 public class HomeFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
@@ -19,6 +26,7 @@ public class HomeFragment extends Fragment {
     public HomeFragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -40,6 +48,8 @@ public class HomeFragment extends Fragment {
 
         return view;
     }
+
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
@@ -64,6 +74,7 @@ public class HomeFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+
 
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name

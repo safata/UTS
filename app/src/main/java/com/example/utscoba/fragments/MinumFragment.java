@@ -3,6 +3,7 @@ package com.example.utscoba.fragments;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +13,16 @@ import androidx.fragment.app.Fragment;
 
 import com.example.utscoba.R;
 
+/**
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link MinumFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ */
 public class MinumFragment  extends Fragment {
+
     private OnFragmentInteractionListener mListener;
+
 
 
     @Override
@@ -37,6 +46,8 @@ public class MinumFragment  extends Fragment {
         return view;
     }
 
+
+
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
@@ -44,6 +55,7 @@ public class MinumFragment  extends Fragment {
 
         }
     }
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
@@ -60,6 +72,7 @@ public class MinumFragment  extends Fragment {
         super.onDetach();
         mListener = null;
     }
+
 
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
