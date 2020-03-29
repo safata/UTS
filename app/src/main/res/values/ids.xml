@@ -2,4 +2,8 @@
 <resources>
     <item name="es" type="id" />
     <item name="minum" type="id" />
+    <item name="minuman1" type="id" />
+    <item name="minuman2" type="id" />
+    <item name="minuman3" type="id" />
+    <item name="minuman4" type="id" />
 </resources>
