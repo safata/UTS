@@ -6,4 +6,8 @@
     <item name="minuman2" type="id" />
     <item name="minuman3" type="id" />
     <item name="minuman4" type="id" />
+    <item name="imageView6" type="id" />
+    <item name="imageView5" type="id" />
+    <item name="imageView7" type="id" />
+    <item name="imageView8" type="id" />
 </resources>
