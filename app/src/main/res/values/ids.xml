@@ -10,4 +10,5 @@
     <item name="imageView5" type="id" />
     <item name="imageView7" type="id" />
     <item name="imageView8" type="id" />
+    <item name="scrollView2" type="id" />
 </resources>
