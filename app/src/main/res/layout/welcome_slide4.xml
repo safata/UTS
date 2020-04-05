@@ -2,39 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dot_light_screen3">
+    android:background="@color/dot_dark_screen1">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="385dp"
+        android:layout_height="361dp"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="154dp"
-            android:layout_height="180dp"
-            android:src="@drawable/minuman" />
+            android:layout_width="206dp"
+            android:layout_height="199dp"
+            android:src="@drawable/resep" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minuman Nusantara"
+            android:text="Resep Minuman Nusantara"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_title"
+            android:textSize="20dp"
+
             android:textStyle="bold" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="340dp"
+            android:layout_height="69dp"
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:textStyle="italic"
-            android:text="Berbagai Jenis Minuman \nAda di Aplikasi Resep Nusantara"
+            android:text="Berbagai Jenis Minuman Nusantara \n\n Ada di Aplikasi GHENDIS RESEP"
             android:textAlignment="center"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_desc" />
+            android:textSize="@dimen/slide_desc"
+            android:textStyle="italic" />
 
     </LinearLayout>
 

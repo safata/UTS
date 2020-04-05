@@ -9,9 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.utscoba.R;
 
-public class EsCincauFragment  extends Fragment {
+public class KastengelFragment extends Fragment {
 
-    public EsCincauFragment(){
+    public KastengelFragment(){
 
     }
 
@@ -19,6 +19,6 @@ public class EsCincauFragment  extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_es_cincau, container, false);
+        return inflater.inflate(R.layout.fragment_kastengel, container, false);
     }
 }

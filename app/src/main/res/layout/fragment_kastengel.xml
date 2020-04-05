@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dot_light_screen1"
-    tools:context=".fragments.EsBuahFragment">
+    tools:context=".fragments.KastengelFragment">
+
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="145dp"
-        android:layout_height="151dp"
-        android:src="@drawable/esbuah"
+        android:layout_width="125dp"
+        android:layout_height="117dp"
+        android:src="@drawable/kastengel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,14 +25,23 @@
         android:layout_height="464dp"
         android:text=" Bahan-bahan:\n
 
-n"
+400 g tepung serbaguna
+300 g butter margarin palmia
+2 kuning telur
+1 sch dancow bubuk
+100 g edam keju Parut
+100 g chedar parut
+Olesan : \n
+1 kuning telur
+1 sdm minyak goreng
+1 sdt skm"
 
         android:textSize="14dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.32" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

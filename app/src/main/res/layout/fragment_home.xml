@@ -4,53 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dot_dark_screen2"
+    android:background="@color/dot_light_screen1"
     tools:context=".fragments.HomeFragment">
+
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="361dp"
-        android:layout_height="131dp"
-        android:text="Menu Spesial Untukmu \nJelajah Rasa \nBerjuta Menunya"
+        android:layout_width="366dp"
+        android:layout_height="77dp"
+        android:text="Resep Minuman \n\nJelajah Rasa"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025" />
-
+        app:layout_constraintVertical_bias="0.114" />
 
     <ImageView
         android:id="@+id/jajan"
-        android:layout_width="297dp"
-        android:layout_height="202dp"
-        android:src="@drawable/waffles"
+        android:layout_width="242dp"
+        android:layout_height="154dp"
+        android:src="@drawable/minum"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521"
-        />
+        app:layout_constraintVertical_bias="0.441" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="267dp"
         android:layout_height="68dp"
-        android:background="@color/dot_dark_screen2"
-        android:text="Aneka Kuliner \nMenarik"
+        android:background="@color/dot_light_screen1"
+        android:text="GENDHIS APP"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@android:color/black"
         android:textSize="17dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.808" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

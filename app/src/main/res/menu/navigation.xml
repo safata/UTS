@@ -4,12 +4,11 @@
     android:layout_height="match_parent">
 
     <item android:id="@+id/home"
-        android:title="Makanan"
-        android:icon="@drawable/minuman" />
+        android:title="Minuman"
+        android:icon="@drawable/minum" />
 
     <item android:id="@+id/minum"
-        android:title="Minuman"
-        android:icon="@drawable/minuman" />
-
+        android:title="Cookies"
+        android:icon="@drawable/food" />
 
 </menu>

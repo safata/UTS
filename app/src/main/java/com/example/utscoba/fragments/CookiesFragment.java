@@ -16,10 +16,10 @@ import com.example.utscoba.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link MinumFragment.OnFragmentInteractionListener} interface
+ * {@link CookiesFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class MinumFragment  extends Fragment {
+public class CookiesFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
@@ -29,7 +29,7 @@ public class MinumFragment  extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_minumfragment, container, false );
+        View view = inflater.inflate(R.layout.fragment_cookiesfragment, container, false );
 
         ImageView es = view.findViewById(R.id.es);
 

@@ -17,15 +17,15 @@ import com.example.utscoba.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link MenuMinumanFragment.OnFragmentInteractionListener} interface
+ * {@link ResepCookiesFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class MenuMinumanFragment extends Fragment {
+public class ResepCookiesFragment extends Fragment {
 
 
     private OnFragmentInteractionListener mListener;
 
-    public MenuMinumanFragment() {
+    public ResepCookiesFragment() {
         // Required empty public constructor
     }
 
@@ -34,7 +34,7 @@ public class MenuMinumanFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_menu_minuman,container, false);
+        View view = inflater.inflate(R.layout.fragment_resep_cookies,container, false);
 
         ImageView minuman1 =  view.findViewById(R.id.minuman1);
         ImageView minuman2 =  view.findViewById(R.id.minuman2);
