@@ -21,25 +21,36 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="352dp"
-        android:layout_height="412dp"
-        android:textStyle="bold"
+        android:layout_width="355dp"
+        android:layout_height="517dp"
         android:text="Bahan-bahan:\n
-100 gr butter
-50 gr margarin
-60 gr gula halus
-1 kuning telur
-200 gr tepung protein rendah
-50 gr maizena
-20 gr susu bubuk
-40 gr keju cheddar
-Bahan pelengkap
-secukupnya Gula halus
+- 100 gr butter\n
+- 50 gr margarin\n
+- 60 gr gula halus\n
+- 1 kuning telur\n
+- 200 gr tepung protein rendah\n
+- 50 gr maizena\n
+- 20 gr susu bubuk\n
+- 40 gr keju cheddar\n
+\n
+Langkah - langkah : \n
+1. Masukan margarin dan susu kental manis aduk -+2menit\n
+
+2. Masukan tepung maizena sedikit demi sedikit hingga tercampur rata\n
+
+3. Jika sudah tercampur uleni dengan tangan yg bersih tidak usah terlalu lama ya yang potong adonan sudah menyatu\n
+
+4. Masukan ke plastik segitiga dengan cetakan. Dan sedikit demi sediki\n
+
+5. Tambahkan chocho chips di atasnya ya.. tidak usah terlalu di tekan\n
+
+6.Masukan ke oven (saya oven tangkring ya) yang sudah di panaskan. Dan dengan api kecil saya selama -+30 menit\n
 "
-        app:layout_constraintBottom_toBottomOf="parent"
         android:textSize="15.5dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

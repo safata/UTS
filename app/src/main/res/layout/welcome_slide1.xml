@@ -7,15 +7,15 @@
 
 
     <LinearLayout
-        android:layout_width="389dp"
-        android:layout_height="305dp"
+        android:layout_width="396dp"
+        android:layout_height="418dp"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="231dp"
-            android:layout_height="187dp"
+            android:layout_width="279dp"
+            android:layout_height="204dp"
             android:src="@drawable/resep" />
 
         <TextView

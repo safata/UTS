@@ -23,22 +23,32 @@
         android:layout_width="367dp"
         android:layout_height="464dp"
         android:text=" Bahan-bahan:\n
-- 125 gram butter
-- 125 gram margarin
-- 75 gram gula halus
-- 2 kuning telur
-- 60 gram keju parut
+- 125 gram butter\n
+- 125 gram margarin\n
+- 75 gram gula halus\n
+- 2 kuning telur\n
+- 60 gram keju parut\n
+\n
+Bahan kering:\n
+- 325 gram terigu protein rendah\n
+- 25 gram maizena\n
+- 25 gram susu bubuk\n
+\n
+Olesan:\n
+- 2 kuning telur\n
+- 2 sdt minyak\n
+- 2 sdt susu cair\n
+\n
+Langkah - langkah :\n
+1. Cmpur gula halus dengan mentega, aduk hingga rata dan berubah wrna\n
 
-Bahan kering:
-- 325 gram terigu protein rendah
-- 25 gram maizena
-- 25 gram susu bubuk
+2. Masukan 2 kuning telur....aduk hingga rata\n
 
-Olesan:
-- 2 kuning telur
-- 2 sdt minyak
-- 2 sdt susu cair
-"
+3. Masukan maizena+ terigu trs aduk hingga rata\n
+
+4. Terakhir masukan rumbatter trs uleni sampai kalisss....baru d bulet"
+
+
 
         android:textSize="14dp"
         android:textStyle="bold"

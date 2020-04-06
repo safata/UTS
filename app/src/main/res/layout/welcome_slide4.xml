@@ -12,8 +12,8 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="206dp"
-            android:layout_height="199dp"
+            android:layout_width="279dp"
+            android:layout_height="204dp"
             android:src="@drawable/resep" />
 
         <TextView

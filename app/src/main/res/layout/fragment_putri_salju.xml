@@ -21,19 +21,33 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="365dp"
-        android:layout_height="490dp"
         android:text=" Bahan :\n
-100 gr butter
-50 gr margarin
-60 gr gula halus
-1 kuning telur
-200 gr tepung protein rendah
-50 gr maizena
-20 gr susu bubuk
-40 gr keju cheddar
-Bahan pelengkap
-secukupnya Gula halus
+- 100 gr butter\n
+- 50 gr margarin\n
+- 60 gr gula halus\n
+- 1 kuning telur\n
+- 200 gr tepung protein rendah\n
+- 50 gr maizena\n
+- 20 gr susu bubuk\n
+- 40 gr keju cheddar\n
+\n
+Bahan pelengkap :\n
+secukupnya Gula halus\n
+\n
+Langkah - langkah :\n
+
+1. Mix butter, margarin dan gula halus hingga tercampur\n
+
+2. Masukkan telur dan keju mix lagi hingga tercampur\n
+
+3. Tambahkan tepung, maizena dan susu bubuk aduk dengan spatula hingga tercampur rata\n
+
+4. Siapkan oven dengan suhu 160°c api atas bawah panggang kurleb 15 menit\n
+
+5. Angkat biarkan hangat lalu beri gula halus...siap deh
+
 "
+        android:layout_height="490dp"
 
         android:textSize="14dp"
 

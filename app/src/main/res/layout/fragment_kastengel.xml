@@ -24,17 +24,27 @@
         android:layout_width="367dp"
         android:layout_height="464dp"
         android:text=" Bahan-bahan:\n
-
-400 g tepung serbaguna
-300 g butter margarin palmia
-2 kuning telur
-1 sch dancow bubuk
-100 g edam keju Parut
-100 g chedar parut
+- 400 g tepung serbaguna\n
+- 300 g butter margarin palmia\n
+- 2 kuning telur\n
+- 1 sch dancow bubuk\n
+- 100 g edam keju Parut\n
+- 100 g chedar parut\n
+\n
 Olesan : \n
-1 kuning telur
-1 sdm minyak goreng
-1 sdt skm"
+1 kuning telur\n
+1 sdm minyak goreng\n
+1 sdt skm\n
+\n
+Langkah - langkah :\n
+1. Campur Blue Band Cake and Cookie dan kuning telur ke dalam mangkuk ukuran besar hingga merata\n
+2. Tambahkan susu bubuk, gula halus, tepung terigu, keju cheddar parut, keju edam parut, dan tepung maizena.\nAduk hingga membentuk adonan\n
+
+3. Giling adonan dengan menggunakan rolling pin atau botol kaca lalu bentuk adonan kaastengels sesuai selera\n
+
+4. Panaskan panci pengukus tanpa air yang sudah diberi saringan lalu oles saringan dengan Blue Band agar tidak lengket.\n
+
+5. Angkat lalu dinginkan sejenak. Kaasstengels siap disajikan "
 
         android:textSize="14dp"
         android:textStyle="bold"
@@ -42,6 +52,6 @@ Olesan : \n
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintVertical_bias="0.078" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
